@@ -1,4 +1,32 @@
-.header{
+@charset "utf-8";
+html{
+    box-sizing: border-box;
+}
+
+.boxwords{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: .5em;
+    background-color: darkblue;
+    color: azure;
+}
+header {
+    background-color: aquamarine;
+}
+img{
+    border-radius: 7px;
+    width: 500px;
+    max-height: 200px;
+    float: right;
+}
+.part-header{
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin: .5em;
+    gap: 20px;
 }
