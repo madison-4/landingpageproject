@@ -1,1 +1,27 @@
 @charset "utf-8";
+.topclass{
+    background-color: rgb(1, 6, 34);
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-header button{
+    color:whitesmoke;
+    background-color: blue;
+}
+#topimageone{
+    border-radius: 4px;
+    width: 500px;
+    height: 200px;
+}
