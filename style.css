@@ -1,7 +1,12 @@
 @charset "utf-8";
-.topclass{
+.topclass, footer{
     background-color: rgb(1, 6, 34);
     color: white;
+}
+footer{
+    height:50px;
+    padding: 25px;
+    text-align: center;
 }
 nav {
     display: flex;
@@ -16,7 +21,7 @@ a {
     display: flex;
     justify-content: space-between;
 }
-.bottom-header button{
+button{
     color:whitesmoke;
     background-color: blue;
 }
@@ -24,4 +29,38 @@ a {
     border-radius: 4px;
     width: 500px;
     height: 200px;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+.parttwo h1{
+    text-align: center;
+}
+.imagestwo{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.partthree{
+    background-color: darkgrey;
+    box-sizing: border-box;
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+}
+.partthree p{
+    font-weight: bold;
+}
+.partfour{
+    display:flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 40px white;
+}
+.partfour div button {
+    border-color: white;
+    color: white;
+    text-align:center;
+    justify-content: space-around;
 }
